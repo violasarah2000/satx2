@@ -237,5 +237,8 @@
     "hooks": {
       "pre-push": "node ./bin/devkit-admin hooks/pre-push"
     }
+  },
+  "dependencies": {
+    "yarn": "^1.22.4"
   }
 }
