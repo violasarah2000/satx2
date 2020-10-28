@@ -92,7 +92,7 @@
     "@bazel/karma": "1.7.0",
     "@bazel/labs": "1.7.0",
     "@bazel/typescript": "1.7.0",
-    "@jsdevtools/coverage-istanbul-loader": "3.0.3",
+    "@jsdevtools/coverage-istanbul-loader": "3.0.5",
     "@types/babel__core": "7.1.9",
     "@types/babel__template": "7.0.2",
     "@types/browserslist": "^4.4.0",
