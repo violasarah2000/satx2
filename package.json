@@ -45,7 +45,7 @@
     "url": "https://github.com/angular/angular-cli.git"
   },
   "engines": {
-    "node": ">=10.13.0 <13.0.0",
+    "node": "<15.0.0",
     "yarn": ">=1.22.4"
   },
   "author": "Angular Authors",
