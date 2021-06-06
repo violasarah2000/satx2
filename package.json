@@ -121,7 +121,7 @@
     "@types/uuid": "^8.0.0",
     "@types/webpack": "^4.32.1",
     "@types/webpack-dev-server": "^3.1.7",
-    "@types/webpack-sources": "^0.1.5",
+    "@types/webpack-sources": "^2.0.0",
     "@yarnpkg/lockfile": "1.1.0",
     "ajv": "6.12.0",
     "ansi-colors": "4.1.1",
@@ -228,7 +228,7 @@
     "webpack-dev-middleware": "3.7.2",
     "webpack-dev-server": "3.10.3",
     "webpack-merge": "5.0.9",
-    "webpack-sources": "1.4.3",
+    "webpack-sources": "2.3.0",
     "webpack-subresource-integrity": "1.4.0",
     "worker-plugin": "4.0.2",
     "zone.js": "^0.10.2"
