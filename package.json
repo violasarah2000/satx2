@@ -94,7 +94,7 @@
     "@bazel/typescript": "1.7.0",
     "@jsdevtools/coverage-istanbul-loader": "3.0.3",
     "@types/babel__core": "7.1.9",
-    "@types/babel__template": "7.0.2",
+    "@types/babel__template": "7.4.1",
     "@types/browserslist": "^4.4.0",
     "@types/caniuse-lite": "^1.0.0",
     "@types/copy-webpack-plugin": "^6.0.0",
