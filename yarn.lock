@@ -1322,44 +1322,6 @@
     source-map-support "0.5.9"
     tsutils "2.27.2"
 
-"@hapi/address@^2.1.2":
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
-  integrity sha512-QD1PhQk+s31P1ixsX0H0Suoupp3VMXzIVMSwobR3F3MSUO2YCV0B7xqLcUw/Bh8yuvd3LhpyqLQWTNcRmp6IdQ==
-
-"@hapi/formula@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@hapi/formula/-/formula-1.2.0.tgz#994649c7fea1a90b91a0a1e6d983523f680e10cd"
-  integrity sha512-UFbtbGPjstz0eWHb+ga/GM3Z9EzqKXFWIbSOFURU0A/Gku0Bky4bCk9/h//K2Xr3IrCfjFNhMm4jyZ5dbCewGA==
-
-"@hapi/hoek@^8.2.4", "@hapi/hoek@^8.3.0":
-  version "8.5.1"
-  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.5.1.tgz#fde96064ca446dec8c55a8c2f130957b070c6e06"
-  integrity sha512-yN7kbciD87WzLGc5539Tn0sApjyiGHAJgKvG9W8C7O+6c7qmoQMfVs0W4bX17eqz6C78QJqqFrtgdK5EWf6Qow==
-
-"@hapi/joi@^16.1.7":
-  version "16.1.8"
-  resolved "https://registry.yarnpkg.com/@hapi/joi/-/joi-16.1.8.tgz#84c1f126269489871ad4e2decc786e0adef06839"
-  integrity sha512-wAsVvTPe+FwSrsAurNt5vkg3zo+TblvC5Bb1zMVK6SJzZqw9UrJnexxR+76cpePmtUZKHAPxcQ2Bf7oVHyahhg==
-  dependencies:
-    "@hapi/address" "^2.1.2"
-    "@hapi/formula" "^1.2.0"
-    "@hapi/hoek" "^8.2.4"
-    "@hapi/pinpoint" "^1.0.2"
-    "@hapi/topo" "^3.1.3"
-
-"@hapi/pinpoint@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@hapi/pinpoint/-/pinpoint-1.0.2.tgz#025b7a36dbbf4d35bf1acd071c26b20ef41e0d13"
-  integrity sha512-dtXC/WkZBfC5vxscazuiJ6iq4j9oNx1SHknmIr8hofarpKUZKmlUVYVIhNVzIEgK5Wrc4GMHL5lZtt1uS2flmQ==
-
-"@hapi/topo@^3.1.3":
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/@hapi/topo/-/topo-3.1.6.tgz#68d935fa3eae7fdd5ab0d7f953f3205d8b2bfc29"
-  integrity sha512-tAag0jEcjwH+P2quUfipd7liWCNX2F8NvYjQp2wtInsZxnMlypdw0FtAOLxtvvkO+GSRRbmNi8m/5y42PQJYCQ==
-  dependencies:
-    "@hapi/hoek" "^8.3.0"
-
 "@istanbuljs/schema@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
@@ -1790,12 +1752,12 @@
   dependencies:
     "@types/node" "*"
 
-"@types/license-checker-webpack-plugin@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@types/license-checker-webpack-plugin/-/license-checker-webpack-plugin-0.0.2.tgz#ee35e2b36a0eccea48254dc1bcc47429f8290384"
-  integrity sha512-ad6Z7r3PdexKQI1MQD3o7VVHPdfduZbTRiob7bKBKihZC6Z3BzKvoZjHWIpkkxXjk6SaEhPjWdDGYQbFtsCQBg==
+"@types/license-checker-webpack-plugin@^0.2.0":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@types/license-checker-webpack-plugin/-/license-checker-webpack-plugin-0.2.1.tgz#2394756ae90740a285bd63422311449b3e81b4d9"
+  integrity sha512-JhLB/SiFi4RgA3SDIsomJxwh7oCoh0NTJGcAhbQmC1yIP8kUHG+fD+dEYHhbeJNFrOL5C57hrI38Lsld0gSecA==
   dependencies:
-    "@types/webpack" "*"
+    "@types/webpack" "^4"
 
 "@types/loader-utils@^2.0.0":
   version "2.0.0"
@@ -1952,6 +1914,11 @@
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.5.tgz#9adbc12950582aa65ead76bffdf39fe0c27a3c02"
   integrity sha512-/gG2M/Imw7cQFp8PGvz/SwocNrmKFjFsm5Pb8HdbHkZ1K8pmuPzOX4VeVoiEecFCVf4CsN1r3/BRvx+6sNqwtQ==
 
+"@types/tapable@^1":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.8.tgz#b94a4391c85666c7b73299fd3ad79d4faa435310"
+  integrity sha512-ipixuVrh2OdNmauvtT51o3d8z12p6LtFW9in7U79der/kwejjdNchQC5UMn5u/KxNoM7VHHOs/l8KS8uHxhODQ==
+
 "@types/through@*":
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/through/-/through-0.0.30.tgz#e0e42ce77e897bd6aead6f6ea62aeb135b8a3895"
@@ -2016,6 +1983,18 @@
     "@types/tapable" "*"
     "@types/uglify-js" "*"
     "@types/webpack-sources" "*"
+    source-map "^0.6.0"
+
+"@types/webpack@^4":
+  version "4.41.32"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.32.tgz#a7bab03b72904070162b2f169415492209e94212"
+  integrity sha512-cb+0ioil/7oz5//7tZUSwbrSAN/NWHrQylz5cW8G0dWTcF/g+/dSdMlKVZspBYuMAN1+WnwHrkxiRrLcwd0Heg==
+  dependencies:
+    "@types/node" "*"
+    "@types/tapable" "^1"
+    "@types/uglify-js" "*"
+    "@types/webpack-sources" "*"
+    anymatch "^3.0.0"
     source-map "^0.6.0"
 
 "@types/yauzl@^2.9.1":
@@ -2528,6 +2507,14 @@ anymatch@^2.0.0:
   dependencies:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
+
+anymatch@^3.0.0:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
+  integrity sha512-P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==
+  dependencies:
+    normalize-path "^3.0.0"
+    picomatch "^2.0.4"
 
 anymatch@~3.1.1:
   version "3.1.1"
@@ -7815,17 +7802,18 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-license-checker-webpack-plugin@0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/license-checker-webpack-plugin/-/license-checker-webpack-plugin-0.1.5.tgz#5f09b91098b53f986c74f02d81258aa691b2956e"
-  integrity sha512-UkQiBPva59iJqWJ1eF0CuOpvIHUehOyojjVkI2Q1a9Bv4tR1g0BpBRamqjKoCPDNoE53Y5f1znhQ6k81LGEBwQ==
+license-checker-webpack-plugin@0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/license-checker-webpack-plugin/-/license-checker-webpack-plugin-0.2.1.tgz#985892b40be2a85198194038b63f3f000a30afd0"
+  integrity sha512-rX8B+mH6fk1vxbnIu/UztqTEonQw95xwOkoRjX3TSrRZA/pbG9CWa3wnSo89KY/ej379JQoq050fsuthy6AU+A==
   dependencies:
-    "@hapi/joi" "^16.1.7"
+    glob "^7.1.6"
     lodash.template "^4.5.0"
     minimatch "^3.0.4"
     semver "^6.3.0"
     spdx-expression-validate "^2.0.0"
     spdx-satisfies "^5.0.0"
+    superstruct "^0.10.12"
     webpack-sources "^1.4.3"
     wrap-ansi "^6.1.0"
 
@@ -12335,6 +12323,11 @@ stylus@0.54.8:
     sax "~1.2.4"
     semver "^6.3.0"
     source-map "^0.7.3"
+
+superstruct@^0.10.12:
+  version "0.10.13"
+  resolved "https://registry.yarnpkg.com/superstruct/-/superstruct-0.10.13.tgz#705535a5598ff231bd976601a7b6b534a71a821b"
+  integrity sha512-W4SitSZ9MOyMPbHreoZVEneSZyPEeNGbdfJo/7FkJyRs/M3wQRFzq+t3S/NBwlrFSWdx1ONLjLb9pB+UKe4IqQ==
 
 supports-color@^2.0.0:
   version "2.0.0"
