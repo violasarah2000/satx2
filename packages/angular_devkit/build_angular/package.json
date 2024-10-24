@@ -52,7 +52,7 @@
     "rimraf": "3.0.2",
     "rollup": "2.23.0",
     "rxjs": "6.6.2",
-    "sass": "1.26.10",
+    "sass": "1.80.4",
     "sass-loader": "9.0.2",
     "semver": "7.3.2",
     "source-map": "0.7.3",
